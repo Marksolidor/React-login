@@ -4,12 +4,13 @@ import Form from './components/Input';
 
 function App() {
 
-  const [user, setUser] = useState("");
+  //const [user, setUser] = useState("");
+  const [key, setKey] = useState("");
 
   return (
     <>
       <h1>Bienvenido</h1>
-      <Form setUser={setUser} />
+      <Form setUser={setKey} />
     </>
   );
 }
