@@ -1,10 +1,15 @@
 import { useState } from 'react';
-import Input from './components/Input';
-import Button from './components/Button';
+import Form from './components/Input';
+
 
 function App() {
+
+  const [user, setUser] = useState("");
+
   return (
     <>
+      <h1>Bienvenido</h1>
+      <Form setUser={setUser} />
     </>
   );
 }
