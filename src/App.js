@@ -11,9 +11,11 @@ function App() {
   return (
     <>
       <h1>Bienvenido</h1>
-      <Form setUser={setKey} />
+      <Form 
+      setUser={setUser}
+      setKey={setKey} />
       <div>
-        <Button/>
+      {key === "252525" && <Button/>}
       </div>
     </>
   );
