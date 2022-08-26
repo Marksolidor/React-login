@@ -26,7 +26,7 @@ code {
 
 .login-container {
   background-color: brown;
-  padding: 3em 2em;
+  padding: 2.5em 1.5em;
   width: 80%;
   max-width: 600px;
   border-radius: 1.5em;
@@ -45,4 +45,44 @@ code {
   flex-direction: column;
   gap: 1em;
   margin-top: 2em;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.input-group label {
+  color: white;
+  font-weight: lighter;
+}
+
+.input-group input {
+  font-size: 1.25rem;
+  padding: .5em;
+  border: none;
+  outline: none;
+  border-radius: .5em;
+  font-weight: lighter;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.validation{
+  margin-top: 0;
+}
+
+.login-button {
+  padding: 1em 1em;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: white;
+  border-radius: .5em;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
 }

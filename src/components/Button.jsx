@@ -1,8 +1,10 @@
 const Button = () => {
     return (
         <>
-        <p>Usuario y contraseña correcta</p>
-        <button type="submit">Ingresar</button>
+        <p className="validation">Usuario y contraseña correcta</p>
+        <div className="btn-container">
+        <button className="login-button" type="submit">Ingresar</button>
+        </div>
         </>
     )
 }
