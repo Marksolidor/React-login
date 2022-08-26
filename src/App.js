@@ -15,8 +15,10 @@ const validarDatos = (e) => {
   };
   return (
     <>
+<div className='full-image-container'>
+  <div className='login-container'>
+  <h1 className='login-title'>Bienvenido</h1>
     <form onSubmit={validarDatos}>
-      <h1>Bienvenido</h1>
       <Form 
       setUser={setUser}
       setKey={setKey} />
@@ -24,6 +26,8 @@ const validarDatos = (e) => {
       {(user === "sharknado" && key === "252525") && <Button/>}
       </div>
       </form>
+  </div>
+</div>
     </>
   );
 }
