@@ -1,12 +1,17 @@
 const Form = (props) => {
     return (
         <>
+        <form>
         <div>
-         <input type="text" onChange={(e) => props.setUser(e.target.value)} />
+        <label>Usuario</label>
+         <input type="text" placeholder="Ingrese Usuario" onChange={(e) => props.setUser(e.target.value)} />
         </div>
         <div>
-            <input type="password" onChange={(e) => props.setKey(e.target.value)} />
+        <label>Contraseña</label>
+            <input type="password" placeholder="Ingrese Contraseña" onChange={(e) => props.setKey(e.target.value)} />
         </div>
+        </form>
+
         
         </>
     )
