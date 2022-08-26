@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './index.css'
 import Button from './components/Button';
 import Form from './components/Input';
 
@@ -18,7 +19,7 @@ const validarDatos = (e) => {
 <div className='full-image-container'>
   <div className='login-container'>
   <h1 className='login-title'>Bienvenido</h1>
-    <form onSubmit={validarDatos}>
+    <form className='form' onSubmit={validarDatos}>
       <Form 
       setUser={setUser}
       setKey={setKey} />
